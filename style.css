@@ -1,0 +1,134 @@
+    /*calculator*/
+
+    .calculator {
+        max-width: 300px;
+        margin: 10vh auto 0 auto;
+        box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    }
+    
+    #display {
+        padding: 16px 8px;
+        font-size: 24px;
+        text-align: right;
+        height: 70px;
+        line-height: 70px;
+    }
+    
+    .buttons {
+        display: grid;
+        border-bottom: 1px solid #999;
+        border-left: 1px solid #999;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .buttons > div {
+        border-top: 1px solid #999;
+        border-right: 1px solid #999;
+    }
+
+    .button {
+        font-size: 24px;
+        border: 0.5px solid #999;
+        line-height: 100px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #equal {
+        background-color: blue;
+        color: white;
+    }
+
+    button:hover {
+        background-color: black;
+        color: white
+    }
+    
+    /*todolist*/
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .todo-container {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      h1 {
+        margin-bottom: 20px;
+      }
+      
+      form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      
+      input[type="text"] {
+        padding: 5px;
+        width: 200px;
+      }
+      
+      button {
+        padding: 5px 10px;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      #todo-button {
+        margin-left: 10px;
+      }
+      
+      
+    
+    /*game*/
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .game {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      h1 {
+        margin-top: 20px;
+      }
+      
+      .choices {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      
+      .choice {
+        padding: 10px 20px;
+      }
+      
+      .result-message {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+      
+      .reset-button {
+        margin-top: 20px;
+      }
+      
+      
+      
