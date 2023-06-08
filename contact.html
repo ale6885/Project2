@@ -1,61 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <title>My Javascript Project</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <title>My Javascript Projects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <div class="grid-container">
+    <body>
+        <div class="grid-container">
 
-        <header class="header">
-            <div class="navbar">
-                <a class="active" href="index.html">Home</a>
-                <a class="active" href="about.html">About</a>
-                <a class="active" href="contact.html">Contact</a>
-                <a class="active" href="help.html">Help</a>
-                <a class="active" href="privacy.html">Privacy</a>
+            <header class="header">
+                <div class="navbar">
+                    <a class="active" href="index.html">Home</a>
+                    <a class="active" href="about.html">About</a>
+                    <a class="active" href="contact.html">Contact</a>
+                    <a class="active" href="privacy.html">Privacy</a>
+
+                <h1 class="title">My Javascript Projects</h1>
+                <div class="flex-container">
+                    <div class="nav-item"><a class="nav-link" href="calculator.html">Calculator</a></div>
+                    <div class="nav-item"><a class="nav-link" href="todolist.html">To Do List</a></div>
+                    <div class="nav-item"><a class="nav-link" href="game.html">Game</a></div>
             </div>
-            <h1 class="title">Ale's Javascript Projects</h1>
-            <ul>
-                <li class="nav-item"><a class="nav-link" href="calculator.html">Calculator</a></li>
-                <li class="nav-item"><a class="nav-link" href="todolist.html">To Do List</a></li>
-                <li class="nav-item"><a class="nav-link" href="game.html">Game</a></li>
-            </ul>
-        </header>
+            </header>
 
-		<main class="main-section">
-			<section>
-				<h2 class="section-title">Contact Us:</h2>
+            <main class="main-section">
+                <section>
+                    <h2 class="section-title">Contact request:</h2>
+                    
+                    <form action="/action_page.php" method="POST">
+                        <div><label for="email">Email:</label></div>
+                        <div><input type="email" id="email" name="email" required></div>
+                        <div><input class="form-contact" type="submit" value="Submit"></div>
+                    </form>
+                </section>
+            </main>
+            
+            <footer class="footer">&copy; 2023 Ale's JavaScript Projects<br>All rights reserved<br><a
+                href="email@gmail.com">Send an email: email@gmail.com</a></footer>
 
-				<form action="submit-form.php" method="POST">
-					<div>
-						<label for="name">Name:</label>
-						<input type="text" id="name" name="name" required>
-					</div>
-                    <br>
-					<div>
-						<label for="email">Email:</label>
-						<input type="email" id="email" name="email" required>
-					</div>
-					<div>
-						<label for="message">Message:</label>
-						<textarea id="message" name="message" required></textarea>
-					</div>
-					<div>
-						<input class="form" type="submit" value="Submit">
-					</div>
-				</form>
+    </body>
 
-			</section>
-		</main>
-		
-        <footer class="footer">&copy; 2023 Ale's JavaScript Projects<br>All rights reserved<br><a
-            href="email@gmail.com">Send an email: email@gmail.com</a></footer>
-
-</body>
-
-</html>
+    </html>
